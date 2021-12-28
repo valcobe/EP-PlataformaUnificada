@@ -1,4 +1,4 @@
-Pràctica 4: Disseny i proves Unitaries 
+Pràctica 4: Disseny i Proves Unitaries 
 =============
 ### Tasks ###
   * Data
