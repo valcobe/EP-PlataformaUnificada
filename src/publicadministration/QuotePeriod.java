@@ -7,7 +7,7 @@ public class QuotePeriod { //Represents a quote period as a registered worker
     private Date initDay;
     private int numDays;
 
-    public QuotePeriod (Date date int ndays){
+    public QuotePeriod (Date date, int ndays){
 
 
     } //Initializes attributes
