@@ -1,16 +1,22 @@
 package publicadministration;
 
-import data.AccredNumb;
+
 import data.Nif;
 
-public class LaboralLifeDoc extends PDFDcoument{//Represents the laboral life
-
+public class LaboralLifeDoc extends PDFDcoument{ //Represents the laboral life
     private Nif nif;
     private QuotePeriodsColl quotePds;
 
-    public LaboralLifeDoc (Nif nif, QuotePeriodsColl qtP){
+    public LaboralLifeDoc (Nif nif, QuotePeriodsColl qtP){ //Initializes attributes
+        this.nif = nif;
+        this.quotePds = qtP;
+    }
 
-    } //Initializes attributes
+    public Nif getNif() {
+        return nif;
+    }
 
-    //the getters
+    public QuotePeriodsColl getQuotePds() {
+        return quotePds;
+    }
 }

@@ -1,6 +1,8 @@
 package publicadministration;
 
-public class QuotePeriodsColl { //Represents the total quote periods known as a registered worker
+import java.util.Date;
+
+public class QuotePeriodsColl {//Represents the total quote periods known as a registered worker
 
     //Its components, that is, the set of quote periods
 

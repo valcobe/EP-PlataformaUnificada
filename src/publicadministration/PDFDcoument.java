@@ -12,11 +12,23 @@ public class PDFDcoument { //Represents a PDF document
     private DocPath path;
     private File file;
 
-    public PDFDcoument(){
+    public PDFDcoument(Date date, DocPath dpath, File f){ //Initializes attributes and emulates the document download at a default path
+        this.creatDate = date;
+        this.path = dpath;
+        this.file = f;
+    }
 
-    } //Initializes attributes and emulates the document download at a default path
+    public Date getCreatDate(){
+        return creatDate;
+    }
 
-    //the getters
+    public DocPath getPath(){
+        return path;
+    }
+
+    public File getFile(){
+        return file;
+    }
 
     public String toString(){
 

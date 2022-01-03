@@ -22,7 +22,7 @@ public class UnifiedPlatform {
 
     }
 
-    public void selects() {
+    public void selectSS() {
 
     }
 
@@ -42,7 +42,7 @@ public class UnifiedPlatform {
 
     }
 
-    public void enterNIF-PINobt (Nif nif, Date valDate) throws NifNotRegisteredException, IncorrectValDateException, AnyMobileRegisteredException, ConnectException {
+    public void enterNIFPINobt (Nif nif, Date valDate) throws NifNotRegisteredException, IncorrectValDateException, AnyMobileRegisteredException, ConnectException {
 
     }
 
@@ -62,7 +62,7 @@ public class UnifiedPlatform {
 
     private void selectPath (DocPath path)throws BadPathException {
 
-    }//No se pide implementacion{}
+    }//No se pide implementacion
 
     //Other operations
 
