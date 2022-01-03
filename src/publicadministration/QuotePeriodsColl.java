@@ -1,7 +1,5 @@
 package publicadministration;
 
-import java.util.Date;
-
 public class QuotePeriodsColl {//Represents the total quote periods known as a registered worker
 
     //Its components, that is, the set of quote periods
@@ -12,7 +10,7 @@ public class QuotePeriodsColl {//Represents the total quote periods known as a r
 
     //the getters
 
-    public addQuotePeriod (QuotePeriod qPd){
+    public void addQuotePeriod (QuotePeriod qPd){
 
     } //Adds a quaote period, always respecting the sorting by date, from oldest to later in time
 
@@ -20,3 +18,4 @@ public class QuotePeriodsColl {//Represents the total quote periods known as a r
 
     } //Converts to String
 }
+

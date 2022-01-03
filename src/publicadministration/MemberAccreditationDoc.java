@@ -21,3 +21,4 @@ public class MemberAccreditationDoc extends PDFDcoument{ //Represents the member
         return numAffil;
     }
 }
+

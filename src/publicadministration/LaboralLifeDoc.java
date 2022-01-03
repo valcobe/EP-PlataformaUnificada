@@ -20,3 +20,4 @@ public class LaboralLifeDoc extends PDFDcoument{ //Represents the laboral life
         return quotePds;
     }
 }
+
