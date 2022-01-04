@@ -116,9 +116,7 @@ public class UnifiedPlatform {
 
     private void printDocument()throws BadPathException, PrintingException{
     }//No se pide implementación
-
     private void downloadDocument(){ }//No se pide implementación
-
     private void selectPath (DocPath path)throws BadPathException {
     }//No se pide implementacion
 
