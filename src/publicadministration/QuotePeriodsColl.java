@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class QuotePeriodsColl {//Represents the total quote periods known as a registered worker
     //Its components, that is, the set of quote periods
-    ArrayList<QuotePeriod> quotePeriodList;
+    private ArrayList<QuotePeriod> quotePeriodList;
 
     public QuotePeriodsColl() {
         quotePeriodList = new ArrayList<QuotePeriod>();

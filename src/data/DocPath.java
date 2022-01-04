@@ -1,15 +1,14 @@
 package data;
 
-import data.Exceptions.EmptyCodeException;
+
 import data.Exceptions.NullObjectException;
 
 public class DocPath {
 
     private final String docPath;
 
-    public DocPath(String code) throws NullObjectException, EmptyCodeException {
+    public DocPath(String code) throws NullObjectException {
         NullObjectException(code);
-        EmptyCodeException(code);
         this.docPath = code;
     }
 
@@ -35,10 +34,5 @@ public class DocPath {
         }
     }
 
-    public void EmptyCodeException(String code) throws EmptyCodeException{
-        if (code == ""){
-            throw new EmptyCodeException("ruta buida");
-        }
-    }
 
 }

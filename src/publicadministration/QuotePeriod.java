@@ -22,4 +22,8 @@ public class QuotePeriod { //Represents a quote period as a registered worker
     public String toString(){
         return "<" + initDay + "-" + numDays + ">";
     } //converts to String
+
+    public boolean compareTo(Date date2){
+        return (this.initDay.after(date2));
+    }
 }
