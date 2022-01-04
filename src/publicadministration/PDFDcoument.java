@@ -15,7 +15,7 @@ public class PDFDcoument { //Represents a PDF document
     private File file;
 
     public PDFDcoument(Date createDate, DocPath path, File file){
-        this.creatDate = new Date();
+        this.creatDate = createDate;
         this.path = path;
         this.file = file;
     }
