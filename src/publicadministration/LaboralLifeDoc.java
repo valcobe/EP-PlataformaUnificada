@@ -16,6 +16,7 @@ public class LaboralLifeDoc extends PDFDcoument{ //Represents the laboral life
         return nif;
     }
 
+
     public QuotePeriodsColl getQuotePds() {
         return quotePds;
     }

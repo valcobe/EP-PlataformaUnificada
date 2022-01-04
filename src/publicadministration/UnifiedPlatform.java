@@ -5,12 +5,16 @@ import data.Nif;
 import data.PINcode;
 import data.Password;
 import exceptions.*;
+import services.CertificationAuthority;
+import services.SS;
 
 import java.util.Date;
 
 
 public class UnifiedPlatform {
-    //The class members
+
+    SS securitySocial;
+    CertificationAuthority certificationAuthority;
 
     //Input events
 
@@ -67,6 +71,7 @@ public class UnifiedPlatform {
     //Other operations
 
     private String searchKeyWords (String keyWord)throws AnyKeyWordProcedureException{
+
 
     }
 
