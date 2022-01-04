@@ -4,6 +4,7 @@ public class QuotePeriodsColl {//Represents the total quote periods known as a r
 
     //Its components, that is, the set of quote periods
 
+
     public QuotePeriodsColl() {
 
     } //Initializes the object
