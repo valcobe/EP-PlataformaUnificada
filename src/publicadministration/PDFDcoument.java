@@ -14,16 +14,11 @@ public class PDFDcoument { //Represents a PDF document
     private DocPath path;
     private File file;
 
-    public PDFDcoument() { //Initializes attributes and emulates the document download at a default path
-        creatDate = new Date();
-    }
-
     public PDFDcoument(Date createDate, DocPath path, File file){
-        this.creatDate = createDate;
+        this.creatDate = new Date();
         this.path = path;
         this.file = file;
     }
-
 
     public Date getCreatDate(){
         return creatDate;
