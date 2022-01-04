@@ -8,7 +8,7 @@ public class MemberAccreditationDoc extends PDFDcoument{ //Represents the member
     private Nif nif;
     private AccredNumb numAffil;
 
-    public MemberAccreditationDoc (Nif nif, AccredNumb nAff){ //Initializes attributes
+    public MemberAccreditationDoc (Nif nif, AccredNumb nAff){//Initializes attributes
         this.nif = nif;
         this.numAffil = nAff;
     }

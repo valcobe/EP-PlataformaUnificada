@@ -3,11 +3,13 @@ package publicadministration;
 
 import data.Nif;
 
+import java.util.Date;
+
 public class LaboralLifeDoc extends PDFDcoument{ //Represents the laboral life
     private Nif nif;
     private QuotePeriodsColl quotePds;
 
-    public LaboralLifeDoc (Nif nif, QuotePeriodsColl qtP){ //Initializes attributes
+    public LaboralLifeDoc (Nif nif, QuotePeriodsColl qtP){
         this.nif = nif;
         this.quotePds = qtP;
 
