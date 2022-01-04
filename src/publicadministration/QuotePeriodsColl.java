@@ -12,7 +12,7 @@ public class QuotePeriodsColl {//Represents the total quote periods known as a r
 
     public void addQuotePeriod (QuotePeriod qPd){
 
-    } //Adds a quaote period, always respecting the sorting by date, from oldest to later in time
+    } //Adds a quote period, always respecting the sorting by date, from oldest to later in time
 
     public String toString() {
 

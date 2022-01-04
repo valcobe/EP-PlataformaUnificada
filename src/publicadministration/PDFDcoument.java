@@ -1,6 +1,8 @@
 package publicadministration;
 
 import data.DocPath;
+import data.Exceptions.EmptyCodeException;
+import data.Exceptions.NullObjectException;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,10 +14,14 @@ public class PDFDcoument { //Represents a PDF document
     private DocPath path;
     private File file;
 
-    public PDFDcoument(Date date, DocPath dpath, File f){ //Initializes attributes and emulates the document download at a default path
-        this.creatDate = date;
-        this.path = dpath;
-        this.file = f;
+    public PDFDcoument() { //Initializes attributes and emulates the document download at a default path
+        creatDate = new Date();
+    }
+
+    public PDFDcoument(Date createDate, DocPath path, File file){
+        this.creatDate = createDate;
+        this.path = path;
+        this.file = file;
     }
 
 
@@ -32,6 +38,7 @@ public class PDFDcoument { //Represents a PDF document
     }
 
     public String toString(){
+        return  getCreatDate() + "" + getFile() + "" + getPath();
 
     } //Converts to String members Date and DocPath
 
